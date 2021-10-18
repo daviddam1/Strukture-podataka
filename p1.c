@@ -15,7 +15,6 @@ typedef struct{
 
 int ProcitajBrojRedakaIzDatoteke(char *nazivDatoteke);
 student* AlocirajMemorijuIProcitajStudente(int BrojStudenata,char *nazivDatoteke);
-void IspisStudenata(int BrojStudenata,char *nazivDatoteka);
 student NajveciBrojBodova(student *studenti,int BrojStudenata);
 
 int main()
@@ -29,6 +28,8 @@ int main()
     BrojStudenata=ProcitajBrojRedakaIzDatoteke(studenti);
     stud=AlocirajMemorijuIProcitajStudente(BrojStudenata,studenti);
     s=NajveciBrojBodova(stud,BrojStudenata);
+    
+    stud(free);
 
    printf("Ime i Prezime        Aps. br. bodova  Rel. br. bodova\n\n");
 
