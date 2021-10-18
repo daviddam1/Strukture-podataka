@@ -5,6 +5,7 @@
 #define MAX_SIZE (128)
 #define MAX_LINE (1024)
 #define MAX_BODOVI (20)
+
 typedef struct{
     char ime[MAX_SIZE];
     char prezime[MAX_SIZE];
@@ -29,7 +30,7 @@ int main()
     stud=AlocirajMemorijuIProcitajStudente(BrojStudenata,studenti);
     s=NajveciBrojBodova(stud,BrojStudenata);
     
-    stud(free);
+    
 
    printf("Ime i Prezime        Aps. br. bodova  Rel. br. bodova\n\n");
 
