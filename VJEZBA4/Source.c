@@ -55,7 +55,7 @@ int main()
     IspisiListu(zbroj);
     
     umnozak = PomnoziElemente(polinom1, polinom2, umnozak);
-    printf("\nUmnozak elementa: ");
+    printf("\n\nUmnozak elementa: ");
     IspisiListu(umnozak);
 
     fclose(datoteka);
@@ -131,19 +131,21 @@ element* UmetniSortirano(element* head, int koeficijent, int eksponent)
     return head;
 }
 
-int IspisiListu(element* P)
+int IspisiListu(element* head)
 {
-    if (P->next == NULL) {
+    if (head->next == NULL) {
         printf("\nPrazna lista.");
         return -1;
     }
 
-    element* pom = P->next;
+    element* pom = head->next;
 
-    do {
+    do 
+    {
         printf("%d^%d + ", pom->koeficijent, pom->eksponent);
         pom = pom->next;
-    } while (pom->next != NULL);
+    } 
+    while (pom->next != NULL);
     printf("%d^%d ", pom->koeficijent, pom->eksponent);
 
     return 0;
