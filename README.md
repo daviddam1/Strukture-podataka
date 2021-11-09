@@ -1,0 +1,2 @@
+# Strukture-podataka 
+Master branch
