@@ -1,2 +1,2 @@
 # Strukture-podataka
-Master branch za nove kodove
+Vjezba 4 prvobitna postavljena u master pa ponovno u main!
