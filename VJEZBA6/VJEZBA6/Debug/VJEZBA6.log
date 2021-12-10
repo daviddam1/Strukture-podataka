@@ -1,0 +1,9 @@
+﻿  filter.c
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\VJEZBA6\filter.c(8,11): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\VJEZBA6\filter.c(36,11): warning C4013: 'strcpy' undefined; assuming extern returning int
+  main.c
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\VJEZBA6\main.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\VJEZBA6\main.c : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Generating Code...
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\VJEZBA6\main.c(89): warning C4716: 'searchArticleInRange': must return a value
+  VJEZBA6.vcxproj -> C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA6\Debug\VJEZBA6.exe
