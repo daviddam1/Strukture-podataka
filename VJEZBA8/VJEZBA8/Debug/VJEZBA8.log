@@ -1,0 +1,7 @@
+﻿  funkcije.c
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\VJEZBA8\funkcije.c(68,11): warning C4047: 'return': 'stablo' differs in levels of indirection from 'int'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\VJEZBA8\funkcije.c(86,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\VJEZBA8\funkcije.c(104,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\VJEZBA8\funkcije.c(116,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\VJEZBA8\funkcije.c(126,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+  VJEZBA8.vcxproj -> C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA8\Debug\VJEZBA8.exe
