@@ -1,0 +1,6 @@
+﻿  funkcije.c
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA9\VJEZBA9\funkcije.c(48,14): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA9\VJEZBA9\funkcije.c(117,12): warning C4047: 'return': 'stablo' differs in levels of indirection from 'int'
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA9\VJEZBA9\funkcije.c(152,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA9\VJEZBA9\funkcije.c(75): warning C4716: 'Izbornik': must return a value
+  VJEZBA9.vcxproj -> C:\Users\DavidDamjanović\Desktop\FESB Računarstvo\STRUKTURE_PODATAKA\VJEZBA9\Debug\VJEZBA9.exe
