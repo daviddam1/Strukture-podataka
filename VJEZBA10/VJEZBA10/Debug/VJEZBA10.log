@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\DavidDamjanović\source\repos\VJEZBA10\VJEZBA10\main.c(24,52): warning C4047: 'function': 'char' differs in levels of indirection from 'char [128]'
+C:\Users\DavidDamjanović\source\repos\VJEZBA10\VJEZBA10\main.c(24,38): warning C4024: 'PronadiDrzavu': different types for formal and actual parameter 2
+C:\Users\DavidDamjanović\source\repos\VJEZBA10\VJEZBA10\main.c(27,37): warning C4133: 'function': incompatible types - from 'ListaDrzavePozicija' to 'StabloGradoviPozicija'
+C:\Users\DavidDamjanović\source\repos\VJEZBA10\VJEZBA10\main.c(5,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+C:\Users\DavidDamjanović\source\repos\VJEZBA10\VJEZBA10\main.c(13,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  VJEZBA10.vcxproj -> C:\Users\DavidDamjanović\source\repos\VJEZBA10\Debug\VJEZBA10.exe

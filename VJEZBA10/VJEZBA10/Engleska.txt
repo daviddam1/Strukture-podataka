@@ -1,0 +1,5 @@
+London	8982000
+Manchester	553230
+Norwich	178388
+Birmingham 	970892
+Southampton 249189

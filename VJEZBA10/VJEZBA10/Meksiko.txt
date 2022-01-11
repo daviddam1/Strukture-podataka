@@ -1,0 +1,3 @@
+CiudadMexico	8463906
+Tijuana	1148681
+Guadalajara	1600894
