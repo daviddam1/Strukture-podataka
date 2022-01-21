@@ -1,0 +1,21 @@
+﻿  funkcije.c
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(36,22): warning C4047: 'return': 'ListaDrzavePozicija' differs in levels of indirection from 'int'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(53,22): warning C4047: 'return': 'StabloGradoviPozicija' differs in levels of indirection from 'int'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(138,62): warning C4133: '=': incompatible types - from 'StabloGradoviPozicija' to 'ListaDrzavePozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(140,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(184,25): warning C4133: 'function': incompatible types - from 'ListaDrzavePozicija' to 'StabloGradoviPozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(258,22): warning C4047: 'return': 'StabloGradoviPozicija' differs in levels of indirection from 'int'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(338,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(345,37): warning C4133: 'function': incompatible types - from 'StabloGradoviPozicija' to 'ListaDrzavePozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(356,26): warning C4133: 'function': incompatible types - from 'ListaDrzavePozicija' to 'StabloGradoviPozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(369,37): warning C4133: 'function': incompatible types - from 'ListaDrzavePozicija' to 'StabloGradoviPozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(369,38): warning C4133: '=': incompatible types - from 'StabloGradoviPozicija' to 'ListaDrzavePozicija'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(398,33): warning C4047: 'function': 'ListaDrzavePozicija' differs in levels of indirection from 'ListaDrzavePozicija **'
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(398,21): warning C4024: 'ObrisiVezanuListu': different types for formal and actual parameter 1
+  main.c
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\main.c(26,24): warning C4133: 'function': incompatible types - from 'ListaDrzavePozicija [11]' to 'StabloGradoviPozicija *'
+  Generating Code...
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(188): warning C4715: 'IspisListe': not all control paths return a value
+C:\Users\student\Desktop\VJEZBA11\VJEZBA11\funkcije.c(391): warning C4715: 'ObrisiStablo': not all control paths return a value
+funkcije.obj : error LNK2019: unresolved external symbol gradUsporedi referenced in function UmetniElement
+C:\Users\student\Desktop\VJEZBA11\x64\Debug\VJEZBA11.exe : fatal error LNK1120: 1 unresolved externals

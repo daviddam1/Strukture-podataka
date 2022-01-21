@@ -41,3 +41,6 @@ int IspisSilazno(StabloGradoviPozicija);
 int IspisiVeci(StabloGradoviPozicija,int);
 
 int TraziGrad(StabloGradoviPozicija[]);
+StabloGradoviPozicija ObrisiStablo(StabloGradoviPozicija);
+int ObrisiVezanuListu(ListaDrzavePozicija);
+int ObrisiMemoriju(ListaDrzavePozicija hashTablica[]);

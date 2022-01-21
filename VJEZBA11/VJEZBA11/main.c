@@ -25,5 +25,7 @@ int main()
 
     TraziGrad(hashTable);
 
+    ObrisiMemoriju(hashTable);
+
     return 0;
 }

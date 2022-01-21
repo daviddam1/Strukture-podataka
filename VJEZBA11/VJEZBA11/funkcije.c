@@ -84,7 +84,7 @@ int ProcitajIzDatoteke(ListaDrzavePozicija hash[HASH_SIZE],char *imeDatoteke)
 	char* imeDrzave = NULL;
 	char* gradImeDatoteke = NULL;
 
-	int velicnaDatoteke = 0;
+	int velicinaDatoteke = 0;
 	int citaj = 0;
 	int drzava = 0;
 	int kljuc = 0;
@@ -108,10 +108,10 @@ int ProcitajIzDatoteke(ListaDrzavePozicija hash[HASH_SIZE],char *imeDatoteke)
 	}
 
 	fseek(fp, 0, SEEK_END);
-	velicnaDatoteke = ftell(fp);
+	velicinaDatoteke = ftell(fp);
 	rewind(fp);
 
-	buffer = (char*)malloc(velicnaDatoteke + 1);
+	buffer = (char*)malloc(velicinaDatoteke + 1);
 
 	if (!buffer)
 	{
@@ -119,7 +119,7 @@ int ProcitajIzDatoteke(ListaDrzavePozicija hash[HASH_SIZE],char *imeDatoteke)
 		return EXIT_FAILURE;
 	}
 
-	fread(buffer, velicnaDatoteke, 1, fp);
+	fread(buffer, velicinaDatoteke, 1, fp);
 	fclose(fp);
 
 	pom = buffer;
@@ -357,4 +357,46 @@ int TraziGrad(StabloGradoviPozicija hash[HASH_SIZE])
 
 	return EXIT_SUCCESS;
 		
+}
+
+int ObrisiVezanuListu(ListaDrzavePozicija head)
+{
+	ListaDrzavePozicija pom = NULL;
+
+	while (head->next != NULL)
+	{
+		pom = head->next;
+		pom->root = ObrisiStablo(pom->root);
+
+		head->next = pom->next;
+
+		free(pom);
+	}
+
+	return 0;
+}
+
+StabloGradoviPozicija ObrisiStablo(StabloGradoviPozicija root)
+{
+	if (root == NULL)
+		return NULL;
+
+	if (root->lijevo)
+		root->lijevo = ObrisiStablo(root->lijevo);
+
+	if (root->desno)
+		root->desno = ObrisiStablo(root->desno);
+
+	free(root);
+}
+
+int ObrisiMemoriju(ListaDrzavePozicija hashTablica[])
+{
+	int brojac = 0;
+	for (brojac; brojac < 11; brojac++)
+	{
+		ObrisiVezanuListu(&hashTablica);
+	}
+
+	return EXIT_SUCCESS;
 }
